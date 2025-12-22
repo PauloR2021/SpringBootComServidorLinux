@@ -11,7 +11,7 @@ public class ProjetoservidorubuntuApplication {
 
         // Carrega o .env
         Dotenv dotenv = Dotenv.configure()
-                .filename(".env.test") // nome do seu arquivo
+                .filename(".env.prod") // nome do seu arquivo
                 .load();;
 
         // Define variáveis de ambiente no sistema (opcional)
